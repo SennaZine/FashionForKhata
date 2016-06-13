@@ -290,22 +290,22 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AvR-a0-oAW">
                                 <rect key="frame" x="-4" y="-49" width="378" height="8500"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Concept brand APP " translatesAutoresizingMaskIntoConstraints="NO" id="PtA-RH-CJB">
-                                        <rect key="frame" x="0.0" y="13" width="378" height="8485"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Concept brand APP " translatesAutoresizingMaskIntoConstraints="NO" id="PtA-RH-CJB">
+                                        <rect key="frame" x="0.0" y="13" width="400" height="8500"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="378" id="Tr1-Bz-hoy"/>
+                                            <constraint firstAttribute="width" constant="400" id="Tr1-Bz-hoy"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="PtA-RH-CJB" secondAttribute="trailing" id="G5t-sU-CTF"/>
+                                    <constraint firstAttribute="trailing" secondItem="PtA-RH-CJB" secondAttribute="trailing" constant="-22" id="G5t-sU-CTF"/>
                                     <constraint firstItem="PtA-RH-CJB" firstAttribute="top" secondItem="AvR-a0-oAW" secondAttribute="top" constant="13" id="HhN-Oc-ThI"/>
                                     <constraint firstItem="PtA-RH-CJB" firstAttribute="leading" secondItem="AvR-a0-oAW" secondAttribute="leading" id="NAf-nA-aIB"/>
-                                    <constraint firstAttribute="trailing" secondItem="PtA-RH-CJB" secondAttribute="trailing" id="UOY-bf-Vyk"/>
-                                    <constraint firstAttribute="bottom" secondItem="PtA-RH-CJB" secondAttribute="bottom" id="Z4y-vY-SgU"/>
+                                    <constraint firstAttribute="trailing" secondItem="PtA-RH-CJB" secondAttribute="trailing" constant="-22" id="UOY-bf-Vyk"/>
+                                    <constraint firstAttribute="bottom" secondItem="PtA-RH-CJB" secondAttribute="bottom" constant="2" id="Z4y-vY-SgU"/>
                                     <constraint firstItem="PtA-RH-CJB" firstAttribute="leading" secondItem="AvR-a0-oAW" secondAttribute="leading" id="hlz-iR-AhW"/>
                                     <constraint firstItem="PtA-RH-CJB" firstAttribute="top" secondItem="AvR-a0-oAW" secondAttribute="top" constant="13" id="xes-5R-z5T"/>
-                                    <constraint firstAttribute="bottom" secondItem="PtA-RH-CJB" secondAttribute="bottom" id="yBF-dD-sW4"/>
+                                    <constraint firstAttribute="bottom" secondItem="PtA-RH-CJB" secondAttribute="bottom" constant="2" id="yBF-dD-sW4"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
