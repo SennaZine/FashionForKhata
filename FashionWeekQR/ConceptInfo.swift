@@ -15,7 +15,7 @@ class ConceptInfo: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollerView.contentSize.height = 1000
+        scrollerView.contentSize.height = 3000
     
     }
 }

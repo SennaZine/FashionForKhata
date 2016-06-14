@@ -24,6 +24,10 @@
 		CE6156621D0ED8F500253D2F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6156601D0ED8F500253D2F /* Parse.framework */; };
 		CE7BA14D1CEF177000BA3014 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7BA14C1CEF177000BA3014 /* HomeScreen.swift */; };
 		CE7BA14F1CEF193300BA3014 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7BA14E1CEF193300BA3014 /* Collection.swift */; };
+		FFBC709F1D1043F40051160C /* Menufacturing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC709E1D1043F40051160C /* Menufacturing.swift */; };
+		FFBC70A11D1044000051160C /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC70A01D1044000051160C /* Price.swift */; };
+		FFBC70A31D1044100051160C /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBC70A21D1044100051160C /* Material.swift */; };
+		FFF08C091D102F63004C9297 /* ResultQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF08C081D102F63004C9297 /* ResultQR.swift */; };
 		FFFC14261CEF3170002FA766 /* QRReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFC14251CEF3170002FA766 /* QRReader.swift */; };
 		FFFCA9391CD3DC98008F177E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCA9381CD3DC98008F177E /* AppDelegate.swift */; };
 		FFFCA93B1CD3DC99008F177E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFCA93A1CD3DC99008F177E /* ViewController.swift */; };
@@ -51,6 +55,10 @@
 		CE6156601D0ED8F500253D2F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		CE7BA14C1CEF177000BA3014 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		CE7BA14E1CEF193300BA3014 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		FFBC709E1D1043F40051160C /* Menufacturing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menufacturing.swift; sourceTree = "<group>"; };
+		FFBC70A01D1044000051160C /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		FFBC70A21D1044100051160C /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		FFF08C081D102F63004C9297 /* ResultQR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultQR.swift; sourceTree = "<group>"; };
 		FFFC14251CEF3170002FA766 /* QRReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReader.swift; sourceTree = "<group>"; };
 		FFFCA9351CD3DC97008F177E /* FashionWeekQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionWeekQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFCA9381CD3DC98008F177E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +111,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FFBC70A41D1044200051160C /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC709E1D1043F40051160C /* Menufacturing.swift */,
+				FFBC70A01D1044000051160C /* Price.swift */,
+				FFBC70A21D1044100051160C /* Material.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
 		FFFCA92C1CD3DC96008F177E = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +144,8 @@
 				FFFCA9381CD3DC98008F177E /* AppDelegate.swift */,
 				FFFCA93A1CD3DC99008F177E /* ViewController.swift */,
 				FFFCA93C1CD3DC99008F177E /* Main.storyboard */,
+				FFF08C081D102F63004C9297 /* ResultQR.swift */,
+				FFBC70A41D1044200051160C /* Info */,
 				CE59169C1D0EFBB900B2EA61 /* ConceptInfo.swift */,
 				CE59169A1D0EEDFA00B2EA61 /* InfoDesigner.swift */,
 				CE7BA14C1CEF177000BA3014 /* HomeScreen.swift */,
@@ -212,12 +232,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBC70A31D1044100051160C /* Material.swift in Sources */,
 				CE59169B1D0EEDFA00B2EA61 /* InfoDesigner.swift in Sources */,
 				FFFC14261CEF3170002FA766 /* QRReader.swift in Sources */,
 				CE192A681D07C0C10097FBFA /* TableView.swift in Sources */,
+				FFBC709F1D1043F40051160C /* Menufacturing.swift in Sources */,
 				FFFCA93B1CD3DC99008F177E /* ViewController.swift in Sources */,
+				FFBC70A11D1044000051160C /* Price.swift in Sources */,
 				CE59169D1D0EFBB900B2EA61 /* ConceptInfo.swift in Sources */,
 				FFFCA9391CD3DC98008F177E /* AppDelegate.swift in Sources */,
+				FFF08C091D102F63004C9297 /* ResultQR.swift in Sources */,
 				CE7BA14D1CEF177000BA3014 /* HomeScreen.swift in Sources */,
 				CE7BA14F1CEF193300BA3014 /* Collection.swift in Sources */,
 			);

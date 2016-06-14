@@ -16,6 +16,6 @@ class Collection: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize.height = 3100
+        scrollView.contentSize.height = 3500
     }
 }
